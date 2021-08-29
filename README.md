@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+## 書籍
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[はじめてつくる React アプリ with TypeScript](https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%A4%E3%81%8F%E3%82%8BReact%E3%82%A2%E3%83%97%E3%83%AA-TypeScript-mod728-ebook/dp/B094Z1R281/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=GLIVTH75ODZA&dchild=1&keywords=react+typescript&qid=1630203694&sprefix=react+ty%2Caps%2C321&sr=8-2)
 
-## Available Scripts
+## 目次
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 第 1 章 基礎編
+  - ウェブアプリの仕組み
+  - なぜ React を使うのか？
+  - コンポーネント化（部品化）
+  - なぜ TypeScript を使うのか？
+  - ターミナルの使い方
+  - Node
+  - npm
+  - API
+  - VS Code
+- 第 2 章 開発編
+  - create-react-app のダウンロード
+  - create-react-app の中身
+  - src フォルダのクリーニング
+  - React を動かす
+  - components フォルダの作成
+  - Title.tsx を作ろう
+  - Form.tsx を作ろう その 1
+  - Form.tsx を作ろう その 2
+  - Form.tsx を作ろう その 3
+  - Results.tsx を作ろう その 1
+  - Results.tsx を作ろう その 2
+- 第 3 章 デプロイ編
+  - Netlify
+  - ファイルを最適化する
+  - 終わりに
+- 第 4 章 ブラッシュアップ
+  - 分割代入
+  - ページ名を変える
+  - エラー処理
+  - return の省略
+  - <>の利用
+  - フォームの入力文字を消す
+  - データの取得中であることを表示する
+- 第 5 章 補足
+  - Class コンポーネントと Functional コンポーネント
+  - type と interface
+  - コンポーネントへの型の適用方法
+  - CSS の適用方法
+  - React の周辺技術
