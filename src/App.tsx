@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-
 import Title from './components/Title';
 import Form from './components/Form';
 import Results from './components/Results';
@@ -26,22 +25,23 @@ function App() {
     e.preventDefault();
     fetch(`https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHERAPI_API_KEY}&q=${city}&aqi=no`)
       .then((res) => res.json())
-      .then((data) =>
+      .then((data) => {
         setResults({
           country: data.location.country,
           cityName: data.location.name,
           temperature: data.current.temp_c,
           conditionText: data.current.condition.text,
           icon: data.current.condition.icon,
-        })
-      )
+        });
+        setCity('');
+      })
       .catch((err) => alert('エラーが発生しました。ページをリロードして、もう一度トライしてください。'));
   };
   return (
     <div className="wrapper">
       <div className="container">
         <Title />
-        <Form setCity={setCity} getWeather={getWeather} />
+        <Form setCity={setCity} getWeather={getWeather} city={city} />
         <Results results={results} />
       </div>
     </div>
